@@ -11,13 +11,13 @@ const Hero = () => {
             <img
               src={illustration}
               alt="Illustration"
-              className="w-full  animate__animated animate__backInDown  max-w-[400px] md:max-w-[600px] lg:max-w-[1000px]"
+              className="w-full max-w-[400px] md:max-w-[600px] lg:max-w-[1000px]"
             />
           </div>
 
           {/* Text Section */}
           <div className="text-center md:text-left md:max-w-[50%]">
-            <h1 className="text-[32px] animate__animated animate__backInUp  md:text-[40px] lg:text-[58px] font-bold text-[#36343F] mb-4 leading-tight">
+            <h1 className="text-[32px] md:text-[40px] lg:text-[58px] font-bold text-[#36343F] mb-4 leading-tight">
               More than just shorter links
             </h1>
             <p className="text-[#9C9BA2] mb-8 text-[16px] md:text-[18px] lg:text-[20px] leading-relaxed">
